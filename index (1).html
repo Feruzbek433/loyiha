@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Super Saytim</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn {
+            background-color: #ffd700;
+            color: #333;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #ffc107;
+            transform: translateY(-2px);
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 80px 5%;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            width: 300px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">🚀 SuperSite</div>
+        <nav>
+            <a href="#">Bosh sahifa</a>
+            <a href="#">Xizmatlar</a>
+            <a href="#">Aloqa</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Orzuingizdagi loyihani birga quramiz</h1>
+        <p>Sizning biznesingiz va g‘oyalaringiz uchun eng zamonaviy, tezkor va mukammal veb-echimlar.</p>
+        <button class="btn" onclick="alert('Xush kelibsiz! Batafsil ma\'lumot tez orada qo‘shiladi.')">Boshlash</button>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>⚡ Tezkorlik</h3>
+            <p>Saytingiz eng yuqori tezlikda ishlaydi va barcha qurilmalarga moslashadi.</p>
+        </div>
+        <div class="card">
+            <h3>🎨 Zamonaviy Dizayn</h3>
+            <p>Foydalanuvchilarga qulay, ko‘zni quvontiradigan va jozibali interfeys.</p>
+        </div>
+        <div class="card">
+            <h3>🔒 Xavfsizlik</h3>
+            <p>Ma'lumotlaringiz va saytingiz doimo xavfsiz va himoyalangan bo‘ladi.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 SuperSite. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+</body>
+</html>
